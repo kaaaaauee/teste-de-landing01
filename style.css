@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Oswald:wght@400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-image: linear-gradient(to right, #000000,#171b1bb4);
+}
+
+.cabecalho {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+
+img#cabecalho {
+    height: 60px;
+    border-radius: 50%;
+    border: solid #14c27a ;
+    background-color: whitesmoke;
+}
+
+.itens {
+    display: flex;
+    gap: 70px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Oswald', sans-serif;
+    color: #14c27a ;
+    font-weight: 300;
+    font-size: 15px;
+
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #14c27a;
+    padding-top: 5px;
+
+}
+
+.principal{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#messi{
+    border-radius: 90%;
+    width: 200px;
+    border: solid #14c27a;
+    background-color: whitesmoke;
+}
+
+.escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.escrito-titulo{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    color:#14c27a ;
+}
+
+.escrito-titulo2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color:whitesmoke ;
+}
+
+.butao{
+    background-color:#14c27aad ;
+    width: 150px;
+    height: 60px;
+    border: none;
+    box-shadow: 2px 2px 2px rgba(245, 245, 245, 0.473);
+    border-radius: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 250;
+    font-size: 25px;
+    color: whitesmoke;
+    margin-bottom: 15px;
+    
+}
+
+.butao:hover{
+
+    background-color: whitesmoke;
+    color: #119e63f6;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.473);
+    
+}
+
+.secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-top: 120px;
+}
+
+.hteste{
+    border-top: 0.4px solid #14c27a;
+    padding-top: 35px ;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 250;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+.paragrafo{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 150;
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+.rodape{
+    text-align: center;
+    padding-top: 32px;
+    border-top: 0.5px solid #14c27a;
+
+}
+
+a{
+    color: whitesmoke;
+    margin: 0 auto;
+}
+
+a:hover{
+    color: #14c27a;
+}
+
+.verde{
+    color: #14c27abb;
+}
+
+.verde:hover{
+    text-decoration: underline;
+}
